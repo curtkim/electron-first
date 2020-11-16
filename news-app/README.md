@@ -1,3 +1,5 @@
+https://www.smashingmagazine.com/2020/07/desktop-apps-electron-vue-javascript/
+
 # news-app
 
 ## Project setup
