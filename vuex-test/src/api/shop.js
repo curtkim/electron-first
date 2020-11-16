@@ -1,7 +1,10 @@
 export const shop = {
-  getProducts (cb) {
-    setTimeout(() => {
-      cb([ "ORIGIN" ])
-    }, 100)
+  getProducts () {
+    return new Promise((resolve)=> {
+      setTimeout(()=> {
+        console.log("ORIGIN");
+        resolve(["ORIGIN"]);
+      }, 1000);
+    })
   }
 }

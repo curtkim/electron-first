@@ -1,9 +1,8 @@
 // actions.js
 import shop from '../api/shop'
 
-export const getAllProducts = ({ commit }) => {
+export const getAllProducts = async ({ commit }) => {
   commit('REQUEST_PRODUCTS')
-  shop.getProducts(products => {
-    commit('RECEIVE_PRODUCTS', products)
-  })
+  let products = await shop.getProducts()
+  commit('RECEIVE_PRODUCTS', products)
 }
