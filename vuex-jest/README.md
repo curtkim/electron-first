@@ -1,0 +1,1 @@
+https://codeburst.io/a-pattern-for-mocking-and-unit-testing-vuex-actions-8f6672bdb255
