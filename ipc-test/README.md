@@ -19,3 +19,18 @@
     ipcMain.on('to-main', (event, arg) => {
       console.log(arg)
     })
+
+
+## WebsocketProxy
+
+Renderer
+- client.connect
+- client.on('connectFailed')
+- client.on('connect')
+- connection.on('error')
+- connection.on('close')
+- connection.on('message')
+- connection.sendUTF
+
+
+  

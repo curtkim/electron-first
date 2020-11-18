@@ -9,6 +9,8 @@ export function close_server_events(){
 export function send_server_event(msg){
   ipcRenderer.send('se-send', msg)
 }
+
+
 export function create_server_event_observable(){
   return Observable.create(function(observer) {
 
